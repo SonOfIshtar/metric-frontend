@@ -22,7 +22,7 @@
         </div>
 
         <div class="order-line order-param-values">
-            <div>Price</div>
+            <div>{ this.i18next.t('order.price') }</div>
             <div class="wallet-amount">{ this.i18next.t('wallet.balance', {balance: formatWalletBalance(state.outputToken.balance)}) }</div>
         </div>
         <div class="order-line order-input">
