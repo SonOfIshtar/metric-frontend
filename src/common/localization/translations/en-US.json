@@ -1,0 +1,76 @@
+{
+    "translation" : {
+        "token_selector": {
+            "input": {
+                "message": "Search symbol or paste address"
+            },
+            "close": {
+                "alt" : "close token selector"
+            }
+        },
+        "theme_switch": {
+            "dark_mode" : "Dark mode",
+            "on" : "On",
+            "off": "Off"
+        },
+        "header": {
+            "farm" : "Farm",
+            "swap" : "Swap",
+            "about" : "About"
+        },
+        "notice": {
+            "message": "Metric uses 0x relayer network and allows you to place Uniswap limit orders."
+        },
+        "footer": {
+            "build_by_finance" : "By BUILD Finance",
+            "documentation" : "Documentation",
+            "twitter" : "Twitter",
+            "discord" : "Discord",
+            "medium" : "Medium"
+        },
+        "my_order_list" : {
+            "title" : "MY ORDERS",
+            "header" : {
+                "type" : "Type",
+                "amount_filled" : "Amount/Filled {{token.symbol}}",
+                "expires_in" : "Expires in"
+            },
+            "order" : {
+                "cancel" : "Cancel"
+            }
+        },
+        "wallet" : {
+            "balance" : "Wallet: {{balance}}",
+            "connect_wallet" : "Connect wallet"
+        },
+        "order": {
+            "type" : {
+                "sell" : "Sell",
+                "buy" : "Buy"
+            },
+            "price": "Price {{token.symbol}}",
+            "amount" : "Amount {{token.symbol}}",
+            "amount_simple" : "Amount",
+            "total" : "Total {{token.symbol}}",
+            "fee" : "Fee",
+            "you_get" : "You'll get",
+            "swap_fee" : "Swap fee",
+            "swap" : "SWAP",
+            "select_token" : "SELECT TOKEN",
+            "select_token_caret" : "SELECT TOKEN ˅",
+            "metric_balance" : "METRIC balance",
+            "no_fee" : "No fees 🥳"
+        },
+        "submit" : {
+            "insufficient_balance" : "INSUFFICIENT BALANCE",
+            "must_be_greater_than" : "MUST BE >{{token.volume_limit}} {{token.symbol}}",
+            "approve": "APPROVE {{token.symbol}}",
+            "approving" : "APPROVING {{token.symbol}}",
+            "place_order" : "PLACE ORDER"
+        },
+        "language_selector" : {
+            "title" : "Language",
+            "language" : "English"
+        }
+    }
+}
